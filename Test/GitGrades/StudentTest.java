@@ -3,39 +3,22 @@ package GitGrades;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 class StudentTest {
 
-    @Test
-    void studentInfo() {
-    }
+  @Test
+  void getName() {
+    //Arrange
+    Student student = new Student("John");
+    String expected = "John";
 
-    @Test
-    void setName() {
+    //Act
+    String actual = student.getName();
 
-    }
+    //Assert
+    Assertions.assertEquals( expected, actual);
+  }
 
-    @Test
-    void getName() {
-        //Arrange
-        Student student = new Student("John");
-        String expected = "John";
-
-        //Act
-        String actual = student.getName();
-
-        //Assert
-        Assertions.assertEquals( expected, actual);
-    }
-
-    @Test
-    void setGrades() {
-    }
-
-    @Test
-    void getGrades() {
-    }
-
-    @Test
-    void setGrade() {
-    }
+  //Add more test if you want
 }
