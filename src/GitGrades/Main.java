@@ -7,6 +7,7 @@ public class Main {
 
     public static void run() {
         Student student = new Student("John");
+        student.StudentInfo("John");
         Grader grader = new Grader();
         student.getGrades();
         System.out.println(student.getName());

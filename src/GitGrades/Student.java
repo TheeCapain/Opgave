@@ -10,6 +10,7 @@ public class Student {
     }
 
     public void StudentInfo(String name) {
+        this.name = name;
         Grader grader = new Grader();
         grader.registerGrades(this);
     }
