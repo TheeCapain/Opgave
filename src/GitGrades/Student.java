@@ -7,13 +7,7 @@ public class Student {
     private int[] grades = new int[7];
 
     //CONSTRUCTOR
-    public Student(String name){
-        this.name = name;
-    }
-
-
-    //METHODS
-    public void StudentInfo() {
+     public Student(String name) {
         this.name = name;
         Grader grader = new Grader();
         grader.registerGrades(this);

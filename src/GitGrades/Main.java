@@ -6,15 +6,7 @@ public class Main {
     }
 
     public static void run() {
-
-
-
-
-    }
-
-    public void printExamResults(){
         Student student = new Student("John");
-        student.StudentInfo();
         student.getGrades();
 
         Student student1 = new Student("Kamille");
@@ -24,5 +16,12 @@ public class Main {
         for(int i = 0; i < student.getGrades().length;i++){
             System.out.println(grader.getClasses()[i]+student.getGrades()[i]);
         }
+
+
+
+    }
+
+    public void printExamResults(){
+
     }
 }
