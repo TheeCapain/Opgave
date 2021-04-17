@@ -7,9 +7,11 @@ public class Main {
 
     public static void run() {
         Student student = new Student("John");
-        student.StudentInfo("John");
         Grader grader = new Grader();
+
+        student.StudentInfo();
         student.getGrades();
+
         System.out.println(student.getName());
         for(int i = 0; i < student.getGrades().length;i++){
             System.out.println(grader.getClasses()[i]+student.getGrades()[i]);

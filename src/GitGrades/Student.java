@@ -9,7 +9,7 @@ public class Student {
         this.name = name;
     }
 
-    public void StudentInfo(String name) {
+    public void StudentInfo() {
         this.name = name;
         Grader grader = new Grader();
         grader.registerGrades(this);
