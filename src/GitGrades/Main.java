@@ -14,5 +14,7 @@ public class Main {
         for(int i = 0; i < student.getGrades().length;i++){
             System.out.println(grader.getClasses()[i]+student.getGrades()[i]);
         }
+        
+        Student student1 = new Student("Kamille");
     }
 }
